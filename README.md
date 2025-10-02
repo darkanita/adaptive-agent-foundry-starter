@@ -1,3 +1,11 @@
-# Adaptive Agent Foundry Starter
+# CardGuideAgent: Adaptive Card Agent on Azure AI Foundry
 
-This repository demonstrates how to create and deploy an AI agent using the Agent Framework and Azure AI Foundry. It includes Adaptive Cards to guide user conversations.
+This project demonstrates how to build and deploy an intelligent agent using the `agent_framework` SDK with Adaptive Cards for guided user interactions. The agent is deployed using Azure AI Foundry.
+
+## 🚀 Features
+
+- Built with `agent_framework` SDK
+- Uses Adaptive Cards for interactive UI
+- Deployable via Azure AI Foundry
+- Modular design with support for connected agents
+- Secure and observable runtime
