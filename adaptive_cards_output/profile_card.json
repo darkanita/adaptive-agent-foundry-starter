@@ -1,0 +1,58 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://via.placeholder.com/80",
+              "style": "Person",
+              "size": "Medium"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Azure User",
+              "weight": "Bolder",
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "text": "AI Developer",
+              "isSubtle": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Email:",
+          "value": "user@example.com"
+        },
+        {
+          "title": "Department:",
+          "value": "AI Development"
+        },
+        {
+          "title": "Location:",
+          "value": "Cloud"
+        }
+      ]
+    }
+  ]
+}

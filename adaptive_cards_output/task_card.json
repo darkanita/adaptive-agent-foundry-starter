@@ -1,0 +1,60 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "\ud83d\udccb Task Information",
+      "weight": "Bolder",
+      "size": "Large"
+    },
+    {
+      "type": "Input.Text",
+      "id": "taskTitle",
+      "placeholder": "Enter task title",
+      "label": "Task Title"
+    },
+    {
+      "type": "Input.Text",
+      "id": "taskDescription",
+      "placeholder": "Enter task description",
+      "label": "Description",
+      "isMultiline": true
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "priority",
+      "label": "Priority",
+      "choices": [
+        {
+          "title": "High",
+          "value": "high"
+        },
+        {
+          "title": "Medium",
+          "value": "medium"
+        },
+        {
+          "title": "Low",
+          "value": "low"
+        }
+      ],
+      "value": "medium"
+    },
+    {
+      "type": "Input.Date",
+      "id": "dueDate",
+      "label": "Due Date"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Create Task",
+      "data": {
+        "action": "create_task"
+      }
+    }
+  ]
+}

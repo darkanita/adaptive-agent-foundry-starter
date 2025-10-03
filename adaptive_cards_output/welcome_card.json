@@ -1,0 +1,36 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "\ud83c\udf89 Welcome to Azure AI Agent!",
+      "weight": "Bolder",
+      "size": "Large",
+      "color": "Accent"
+    },
+    {
+      "type": "TextBlock",
+      "text": "I'm your AI assistant powered by Azure AI Foundry. I can help you with various tasks and display rich, interactive cards.",
+      "wrap": true
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Status:",
+          "value": "Online"
+        },
+        {
+          "title": "Model:",
+          "value": "gpt-4o-mini"
+        },
+        {
+          "title": "Time:",
+          "value": "2025-10-03 04:31:32"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "\ud83c\udf24\ufe0f Weather Update",
+      "weight": "Bolder",
+      "size": "Large"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "72\u00b0F",
+              "size": "ExtraLarge",
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Seattle",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Partly Cloudy",
+              "isSubtle": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Last updated: 04:31 AM",
+      "isSubtle": true,
+      "size": "Small"
+    }
+  ]
+}
